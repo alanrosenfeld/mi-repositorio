@@ -1,0 +1,1 @@
+ScrollReveal().reveal('#section1', { delay: 500 });

@@ -1,0 +1,636 @@
+/* Estilos generales */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: 'montserrat', sans-serif;
+    font-weight: 600 !important;
+  }
+
+  html{
+    scroll-behavior: smooth;
+}
+ 
+/* INDEX */
+
+/* Nav Bar */
+
+  .navbar-custom {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
+  .navbar-custom .navbar-brand {
+    text-transform: uppercase;
+    font-size: 1rem;
+    letter-spacing: 0.1rem;
+    font-weight: 700;
+  }
+  
+  .navbar-custom .navbar-nav .nav-item .nav-link {
+    font-size: 0.9rem;
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+    color: white;
+    padding: 10px 20px 10px 20px;
+  }
+
+  .navbar-custom .navbar-nav .nav-item .nav-link:hover{
+      color: black;
+      background-color: orange;
+      -webkit-animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+      animation: text-focus-in 0.5s cubic-bezier(0.550, 0.085, 0.680, 0.530) both;
+  }
+
+/* Banner ppal */
+
+  header.masthead {
+    position: relative;
+    overflow: hidden;
+    padding-top: calc(7rem + 72px);
+    background-image: url("../img/indexbg.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    padding-bottom: 70px;
+  }
+  
+  header.masthead .masthead-content {
+    z-index: 1;
+    position: relative;
+    margin-top: 100px;
+  }
+
+  .titulo{
+      font-size: 60px;
+      text-shadow: 0 0 10px black;
+  }
+
+  .subtitulo{
+      font-size: 36px;
+      text-shadow: 0 0 10px black;
+  }
+  
+  .btn{
+    margin-top: 50px;
+    text-align: center;
+}
+
+  .btn:hover{
+    -webkit-animation: wobble-hor-top 0.8s both;
+    animation: wobble-hor-top 0.8s both;
+  }
+
+  .btn a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+   .btn a:hover{
+    background-color: darkorange;
+}
+
+/* Seccion 1 */
+
+#section1{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+/* Seccion 2 */
+
+#descubri{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+/* Seccion 3 */
+
+#reserva{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+/* Seccion 4 */
+
+#interactua{
+    margin-top: 160px;
+    margin-bottom: 160px;
+}
+
+/* IMG seccion */
+
+.img1{
+    display: flex;
+    justify-content: center;
+}
+
+/* Texto seccion */
+
+.txt1{
+    margin: auto;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+.txt1 h2{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 36px;
+}
+
+.txt1 p{
+    padding-top: 30px;
+}
+
+.txt1 .btn1{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.btn1:hover{
+  -webkit-animation: wobble-hor-top 0.8s both;
+  animation: wobble-hor-top 0.8s both;
+}
+
+.btn1 a{
+    color: white;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 50px 10px 50px;
+    border-radius: 20px;
+    font-weight: bold;
+}
+
+   .btn1 a:hover{
+    background-color: darkorange;
+}
+
+/* Footer */
+
+.footer{
+    background-color: rgb(70, 70, 70);
+    text-align: center;
+    font-size: 0.9rem;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+#logofooter{
+    padding-bottom: 20px;
+}
+
+#social{
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+#social a{
+    margin-left: 5px;
+    margin-right: 5px;
+    height: 2.5rem;
+    width: 2.5rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    border-radius: 100%
+}
+
+.legales{
+    margin: auto;
+}
+
+.legales a{
+    color: orange;
+    padding-left: 10px;
+}
+
+/* DESCUBRI */
+
+/* Banner ppal */
+
+.masthead-descubri {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  background-image: url("../img/descubribg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.masthead-descubri .masthead-content {
+  z-index: 1;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.masthead-descubri .masthead-content .titulo{
+    font-size: 60px;
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+.masthead-descubri .masthead-content .subtitulo{
+    font-size: 36px;
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+.masthead-descubri .masthead-content .btn{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.masthead-descubri .masthead-content .btn:hover{
+  -webkit-animation: wobble-hor-top 0.8s both;
+  animation: wobble-hor-top 0.8s both;
+}
+
+.masthead-descubri .masthead-content .btn a{
+  color: white;
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.masthead-descubri .masthead-content .btn a:hover{
+  background-color: darkorange;
+}
+
+/* Seccion 1 */
+
+#section1{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Seccion 2 */
+
+#categorias{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Seccion 3 */
+
+#proximidad{
+  margin-top: 80px;
+  margin-bottom: 160px;
+}
+
+/* RESERVA */
+
+/* Banner ppal */
+
+.masthead-reserva {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  background-image: url("../img/reservabg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.masthead-reserva .masthead-content {
+  z-index: 1;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.masthead-reserva .masthead-content .titulo{
+    font-size: 60px;
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+.masthead-reserva .masthead-content .subtitulo{
+    font-size: 36px;
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+.masthead-reserva .masthead-content .btn{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.masthead-reserva .masthead-content .btn:hover{
+  -webkit-animation: wobble-hor-top 0.8s both;
+  animation: wobble-hor-top 0.8s both;
+}
+
+.masthead-reserva .masthead-content .btn a{
+  color: white;
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.masthead-reserva .masthead-content .btn a:hover{
+  background-color: darkorange;
+}
+
+/* Seccion 1 */
+
+#section1{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Seccion 2 */
+
+#confirma{
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+/* Seccion 3 */
+
+#agenda{
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+/* INTERACTUA */
+
+/* Banner ppal */
+
+.masthead-interactua {
+  position: relative;
+  overflow: hidden;
+  padding-top: calc(7rem + 72px);
+  background-image: url("../img/interactuabg.jpg");
+  background-repeat: no-repeat;
+  background-attachment: scroll;
+  background-size: cover;
+  padding-bottom: 70px;
+}
+
+.masthead-interactua .masthead-content {
+  z-index: 1;
+  position: relative;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.masthead-interactua .masthead-content .titulo{
+    font-size: 60px;
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+.masthead-interactua .masthead-content .subtitulo{
+    font-size: 36px;
+    text-shadow: 0 0 10px black;
+    color: white;
+}
+
+.masthead-interactua .masthead-content .btn{
+  margin-top: 50px;
+  text-align: center;
+}
+
+.masthead-interactua .masthead-content .btn:hover{
+  -webkit-animation: wobble-hor-top 0.8s both;
+  animation: wobble-hor-top 0.8s both;
+}
+
+.masthead-interactua .masthead-content .btn a{
+  color: white;
+  text-decoration: none;
+  background-color: orange;
+  padding: 10px 50px 10px 50px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.masthead-interactua .masthead-content .btn a:hover{
+  background-color: darkorange;
+}
+
+/* Seccion 1 */
+
+#section1{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+/* Seccion 2 */
+
+#confirma{
+  margin-top: 160px;
+  margin-bottom: 80px;
+}
+
+/* Seccion 3 */
+
+#agenda{
+  margin-top: 160px;
+  margin-bottom: 160px;
+}
+
+/* Media queries */
+
+  @media (min-width: 992px) {
+    header.masthead {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 6rem;
+    }
+
+    .masthead-descubri {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 6rem;
+    }
+
+    .masthead-reserva {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 6rem;
+    }
+
+    .masthead-interactua {
+      padding-top: calc(10rem + 55px);
+      padding-bottom: 6rem;
+    }
+
+    .navbar-custom .navbar-nav .nav-item .nav-link{
+      font-size: 0.9rem;
+      font-weight: 500;
+      letter-spacing: 0.1rem;
+      color: white;
+      padding: 10px 20px 10px 20px;
+    }
+
+    .navbar-custom .navbar-nav .nav-item .nav-link:hover{
+      color: orange;
+      background: none;
+    }
+
+    header.masthead .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    header.masthead .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+
+    .masthead-descubri .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    .masthead-descubri .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+
+    .masthead-reserva .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    .masthead-reserva .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+
+    .masthead-interactua .masthead-content .masthead-heading {
+      font-size: 6rem;
+    }
+    .masthead-interactua .masthead-content .masthead-subheading {
+      font-size: 4rem;
+    }
+
+    header.masthead .masthead-content {
+      z-index: 1;
+      position: relative;
+      margin-top: 200px;
+    }
+
+    .masthead-descubri .masthead-content {
+      z-index: 1;
+      position: relative;
+      margin-top: 200px;
+    }
+
+    .masthead-reserva .masthead-content {
+      z-index: 1;
+      position: relative;
+      margin-top: 200px;
+    }
+
+    .masthead-interactua .masthead-content {
+      z-index: 1;
+      position: relative;
+      margin-top: 200px;
+    }
+
+    #social{
+        padding-bottom: 0;
+    }
+    #logofooter{
+        padding-bottom: 0;
+    }
+  }
+
+  /* Animaciones */
+
+  @-webkit-keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+  @keyframes text-focus-in {
+    0% {
+      -webkit-filter: blur(12px);
+              filter: blur(12px);
+      opacity: 0;
+    }
+    100% {
+      -webkit-filter: blur(0px);
+              filter: blur(0px);
+      opacity: 1;
+    }
+  }
+
+  @-webkit-keyframes wobble-hor-top {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(6deg);
+              transform: translateX(-30px) rotate(6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(-6deg);
+              transform: translateX(15px) rotate(-6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(3.6deg);
+              transform: translateX(-15px) rotate(3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(-2.4deg);
+              transform: translateX(9px) rotate(-2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(1.2deg);
+              transform: translateX(-6px) rotate(1.2deg);
+    }
+  }
+  @keyframes wobble-hor-top {
+    0%,
+    100% {
+      -webkit-transform: translateX(0%);
+              transform: translateX(0%);
+      -webkit-transform-origin: 50% 50%;
+              transform-origin: 50% 50%;
+    }
+    15% {
+      -webkit-transform: translateX(-30px) rotate(6deg);
+              transform: translateX(-30px) rotate(6deg);
+    }
+    30% {
+      -webkit-transform: translateX(15px) rotate(-6deg);
+              transform: translateX(15px) rotate(-6deg);
+    }
+    45% {
+      -webkit-transform: translateX(-15px) rotate(3.6deg);
+              transform: translateX(-15px) rotate(3.6deg);
+    }
+    60% {
+      -webkit-transform: translateX(9px) rotate(-2.4deg);
+              transform: translateX(9px) rotate(-2.4deg);
+    }
+    75% {
+      -webkit-transform: translateX(-6px) rotate(1.2deg);
+              transform: translateX(-6px) rotate(1.2deg);
+    }
+  }
+  
